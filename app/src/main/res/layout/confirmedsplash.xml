@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/background">
+
+    <ImageView
+        android:id="@+id/logo_id"
+        android:layout_width="152dp"
+        android:layout_height="146dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="23dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/hangover" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo_id"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="15dp"
+        android:text="Order Confirmed!"
+        android:textColor="@color/text"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+
+    <ListView
+        android:id="@+id/selectedlistView"
+        android:layout_width="332dp"
+        android:layout_height="301dp"
+
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="250dp">
+
+    </ListView>
+
+    <Button
+        android:id="@+id/ConfirmButton"
+        android:layout_width="224dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="94dp"
+        android:layout_marginEnd="94dp"
+        android:layout_marginBottom="25dp"
+        android:text="Confirm" />
+
+    <TextView
+        android:id="@+id/totalPrice"
+        android:layout_width="102dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/selectedlistView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="14dp"
+        android:textStyle="bold"
+        android:text="Price" />
+
+    <TextView
+        android:id="@+id/sedrlknhopfserfdhgnsd"
+        android:layout_width="102dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/selectedlistView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="122dp"
+        android:text="Total Price:" />
+
+</RelativeLayout>

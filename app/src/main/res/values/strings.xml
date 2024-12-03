@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">HangOver</string>
+
+    <!-- Apetizer strings -->
+    <string name="Apet1">Bacon wrapped jalapeños</string>
+    <string name="Apet1_description">Spicy, smoky delight</string>
+    <string name="Apet1_price">50Php</string>
+
+    <string name="Apet2">Crabcake</string>
+    <string name="Apet2_description">Crispy, tender seafood</string>
+    <string name="Apet2_price">80Php</string>
+
+    <string name="Apet3">CheeseBites</string>
+    <string name="Apet3_description">Cheesy, golden goodness</string>
+    <string name="Apet3_price">120Php</string>
+
+    <string name="Apet4">Deviled Eggs</string>
+    <string name="Apet4_description">Hot, creamy flavor</string>
+    <string name="Apet4_price">30Php</string>
+
+    <string name="Apet5">Pork Meatballs</string>
+    <string name="Apet5_description">Juicy, savory bites</string>
+    <string name="Apet5_price">130Php</string>
+
+    <string name="Apet6">Puff Riceballs</string>
+    <string name="Apet6_description">Light, crispy texture</string>
+    <string name="Apet6_price">20Php</string>
+
+    <string name="Apet7">Ham &amp; Cheese\n Empanada</string>
+    <string name="Apet7_description">Flaky, savory filling</string>
+    <string name="Apet7_price">60Php</string>
+</resources>

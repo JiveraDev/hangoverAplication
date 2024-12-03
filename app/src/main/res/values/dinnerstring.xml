@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dessert1">Thai Milk Tea</string>
+    <string name="dessert1_description">Sweet and creamy tea</string>
+    <string name="dessert1_price">150Php</string>
+
+    <string name="dessert2">Brown Sugar Milk Tea</string>
+    <string name="dessert2_description">Rich and caramelized flavor</string>
+    <string name="dessert2_price">160Php</string>
+
+    <string name="dessert3">Matcha Latte</string>
+    <string name="dessert3_description">Earthy and smooth taste</string>
+    <string name="dessert3_price">180Php</string>
+
+    <string name="dessert4">Mini Churros</string>
+    <string name="dessert4_description">Crispy and sugary bites</string>
+    <string name="dessert4_price">130Php</string>
+
+    <string name="dessert5">Brownie Bites</string>
+    <string name="dessert5_description">Chewy and chocolatey pieces</string>
+    <string name="dessert5_price">140Php</string>
+
+    <string name="dessert6">Fruit Skewers</string>
+    <string name="desssert6_description">Fresh and tangy mix</string>
+    <string name="desert6_price">120Php</string>
+
+    <string name="dessert7">Mini Cannoli</string>
+    <string name="dessert7_description">Crispy shell with cream</string>
+    <string name="dessert7_price">170Php</string>
+
+
+
+
+
+
+</resources>

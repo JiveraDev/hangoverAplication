@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="MissingDefaultResource"
+    android:background="@color/browm"
+    tools:context=".DesertActivity">
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:id="@+id/titl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/lingstone"
+            android:text="HangOver"
+            android:textSize="50px">
+
+        </TextView>
+    </Toolbar>
+
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Dessert Menu"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/lingstone"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="555dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+            <!--BREAKFAST-->
+
+
+            <!--            the first part Appetizer-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+              >
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardViewDessert1"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="50dp"
+                    android:elevation="5dp"
+                    app:cardCornerRadius="5dp">
+
+                    <ImageView
+                        android:id="@+id/dessertset1"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:clickable="true"
+                        android:contentDescription="TODO"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/thai" />
+
+                    <CheckBox
+                        android:id="@+id/dessertcheck1"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="100dp"
+                        android:layout_marginTop="100dp" />
+
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/desserttextView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="55dp"
+                    android:layout_toEndOf="@+id/cardViewDessert1"
+                    android:fontFamily="@font/veganstyle"
+                    android:text="@string/dessert1"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/dessertDescription1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/desserttextView1"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="27dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_toEndOf="@+id/cardViewDessert1"
+                    android:text="@string/dessert1_description"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/cinamon"
+                    android:textStyle="italic"/>
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/dessertDescription1"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_toEndOf="@+id/cardViewDessert1"
+                    android:text="@string/dessert1_price"
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+            </RelativeLayout>
+
+            <!-- Repeat the above block for the other desserts -->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardViewDessert2"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="50dp"
+                    android:elevation="5dp"
+                    app:cardCornerRadius="5dp">
+
+                    <ImageView
+                        android:id="@+id/dessertset2"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:clickable="true"
+                        android:contentDescription="TODO"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/brownsugarmilktea" />
+
+                    <CheckBox
+                        android:id="@+id/dessertcheck2"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="100dp"
+                        android:layout_marginTop="100dp" />
+
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/desserttextView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="55dp"
+                    android:layout_toEndOf="@+id/cardViewDessert2"
+                    android:fontFamily="@font/veganstyle"
+                    android:text="@string/dessert2"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/dessertDescription2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/desserttextView2"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="27dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_toEndOf="@+id/cardViewDessert2"
+                    android:text="@string/dessert2_description"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/cinamon"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/dessertDescription2"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_toEndOf="@+id/cardViewDessert2"
+                    android:text="@string/dessert2_price"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardViewDessert3"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="50dp"
+                    android:elevation="5dp"
+                    app:cardCornerRadius="5dp">
+
+                    <ImageView
+                        android:id="@+id/dessertset3"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:clickable="true"
+                        android:contentDescription="TODO"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/matchalatte" />
+
+                    <CheckBox
+                        android:id="@+id/dessertcheck3"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="100dp"
+                        android:layout_marginTop="100dp" />
+
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/desserttextView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="55dp"
+                    android:layout_toEndOf="@+id/cardViewDessert3"
+                    android:fontFamily="@font/veganstyle"
+                    android:text="@string/dessert3"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/dessertDescription3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/desserttextView3"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="27dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_toEndOf="@+id/cardViewDessert3"
+                    android:text="@string/dessert3_description"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/cinamon"
+                    android:textStyle="italic"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/dessertDescription3"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_toEndOf="@+id/cardViewDessert3"
+                    android:text="@string/dessert3_price"
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardViewDessert4"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="50dp"
+                    android:elevation="5dp"
+                    app:cardCornerRadius="5dp">
+
+                    <ImageView
+                        android:id="@+id/dessertset4"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:clickable="true"
+                        android:contentDescription="TODO"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/minichurros" />
+
+                    <CheckBox
+                        android:id="@+id/dessertcheck4"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="100dp"
+                        android:layout_marginTop="100dp" />
+
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/desserttextView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="55dp"
+                    android:layout_toEndOf="@+id/cardViewDessert4"
+                    android:fontFamily="@font/veganstyle"
+                    android:text="@string/dessert4"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/dessertDescription4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/desserttextView4"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="27dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_toEndOf="@+id/cardViewDessert4"
+                    android:text="@string/dessert4_description"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/cinamon"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/dessertDescription4"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_toEndOf="@+id/cardViewDessert4"
+                    android:text="@string/dessert4_price"
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardViewDessert5"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="50dp"
+                    android:elevation="5dp"
+                    app:cardCornerRadius="5dp">
+
+                    <ImageView
+                        android:id="@+id/dessertset5"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:clickable="true"
+                        android:contentDescription="TODO"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/browniebites" />
+
+                    <CheckBox
+                        android:id="@+id/dessertcheck5"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="100dp"
+                        android:layout_marginTop="100dp" />
+
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/desserttextView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="55dp"
+                    android:layout_toEndOf="@+id/cardViewDessert5"
+                    android:fontFamily="@font/veganstyle"
+                    android:text="@string/dessert5"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/dessertDescription5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/desserttextView5"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="27dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_toEndOf="@+id/cardViewDessert5"
+                    android:text="@string/dessert5_description"
+
+                    android:textSize="18sp"
+                    android:fontFamily="@font/cinamon"
+                    android:textStyle="italic"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/dessertDescription5"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_toEndOf="@+id/cardViewDessert5"
+                    android:text="@string/dessert5_price"
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardViewDessert6"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="50dp"
+                    android:elevation="5dp"
+                    app:cardCornerRadius="5dp">
+
+                    <ImageView
+                        android:id="@+id/dessertset6"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:clickable="true"
+                        android:contentDescription="TODO"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/fruitskwers" />
+
+                    <CheckBox
+                        android:id="@+id/dessertcheck6"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="100dp"
+                        android:layout_marginTop="100dp" />
+
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/desserttextView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="55dp"
+                    android:layout_toEndOf="@+id/cardViewDessert6"
+                    android:fontFamily="@font/veganstyle"
+                    android:text="@string/dessert6"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/dessertDescription6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/desserttextView6"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="27dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_toEndOf="@+id/cardViewDessert6"
+                    android:text="@string/desssert6_description"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/cinamon"
+                    android:textStyle="italic"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/dessertDescription6"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_toEndOf="@+id/cardViewDessert6"
+                    android:text="@string/desert6_price"
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardViewDessert7"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="50dp"
+                    android:elevation="5dp"
+                    app:cardCornerRadius="5dp">
+
+                    <ImageView
+                        android:id="@+id/dessertset7"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:clickable="true"
+                        android:contentDescription="TODO"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/canoli" />
+
+                    <CheckBox
+                        android:id="@+id/dessertcheck7"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="100dp"
+                        android:layout_marginTop="100dp" />
+
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/desserttextView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="55dp"
+                    android:layout_toEndOf="@+id/cardViewDessert7"
+                    android:fontFamily="@font/veganstyle"
+                    android:text="@string/dessert7"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/dessertDescription7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/desserttextView7"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="27dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_toEndOf="@+id/cardViewDessert7"
+                    android:text="@string/dessert7_description"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/cinamon"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/dessertDescription7"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_toEndOf="@+id/cardViewDessert7"
+                    android:text="@string/dessert7_price"
+                    android:textSize="15sp"
+                    android:textStyle="bold"/>
+            </RelativeLayout>
+
+            <!-- Repeat for dessert 3 through 7 with similar structure -->
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/gobackdesertcvmnbfvcn"
+            android:layout_width="163dp"
+            android:layout_height="60dp"
+            android:text="Go Back">
+
+        </Button>
+
+        <Button
+            android:id="@+id/placeorderdessert"
+            android:layout_width="244.8dp"
+            android:layout_height="60dp"
+            android:text="Place Orders">
+
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>
+

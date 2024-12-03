@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Mainc1">Loaded Tater Tots</string>
+    <string name="Mainc1_description">Crispy and cheesy tots</string>
+    <string name="Mainc1_price">250Php</string>
+
+    <string name="Mainc2">Grilled Cheese Sandwich</string>
+    <string name="Mainc2_description">Classic melted cheese</string>
+    <string name="Mainc2_price">220Php</string>
+
+    <string name="Mainc3">Chicken and Waffles</string>
+    <string name="Mainc3_description">Sweet and savory combo</string>
+    <string name="Mainc3_price">300Php</string>
+
+    <string name="Mainc4">Ramen Noodle Soup</string>
+    <string name="Mainc4_description">Spicy noodle bowl</string>
+    <string name="Mainc4_price">180Php</string>
+
+    <string name="Mainc5">Chili Cheese Fries</string>
+    <string name="Mainc5_description">Fries with chili topping</string>
+    <string name="Mainc5_price">230Php</string>
+
+    <string name="Mainc6">Korean BBQ Tacos</string>
+    <string name="Mainc6_description">Grilled meat and veggies</string>
+    <string name="Mainc6_price">290Php</string>
+
+    <string name="Mainc7">BBQ Pulled Pork</string>
+    <string name="Mainc7_description">Tender and smoky pork</string>
+    <string name="Mainc7_price">270Php</string>
+
+
+
+
+
+
+
+
+
+
+</resources>
